@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS File -->
+    <link rel = "stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+   <div id = "outer">
+     <div id = "circle"></div>
+   </div>
+   <h3> Mode </h3>
+
+   <div id = "body-container">
+      <h1>To-Do List</h1>
+      <div id = "container">
+        <input type = "text" id = "container-input" placeholder="Enter an item" required>
+        <input type="date" id="dueDateInput" placeholder="Enter due date" required>
+        <input type="text" id="taskReminders" placeholder="Enter due date and time" required>
+        <select id="priorityInput">
+           <option value="low">Low</option>
+           <option value="medium">Medium</option>
+           <option value="high">High</option>
+        </select>
+        <button id = "container-save">Save</button>
+        <span id = "sortText">Sort</span>
+        <select id="sortOption">
+          <option value="none">None</option>
+          <option value="dueDate">By Due Date</option>
+          <option value="priority">By Priority</option>
+        </select>
+        
+        <ul id = "container-list">  
+          
+        </ul> 
+      </div>
+   </div>
+
+  <!-- Javacript File -->
+  <script src="script.js"></script>
+
+</body>
+</html>
