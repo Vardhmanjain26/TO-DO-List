@@ -1,0 +1,171 @@
+#outer{
+  background-color : white;
+  height : 15px;
+  width : 50px;
+  border : 2px solid black;
+  border-radius : 20px;
+  cursor : pointer;
+  margin-left : 20px;
+  margin-bottom : -10px;
+}
+
+#circle{
+  border-radius : 50%;
+  background-color : black;
+  height : 14px;
+  width : 14px;
+  margin-left : 1px;
+  transition-duration : 1s;
+}
+
+.white{
+  color : white;
+}
+
+.black{
+  background-color : black;
+}
+
+.rgba{
+  background-color : #83c2b5c2;
+}
+
+h3{
+  margin-left : 20px;
+}
+
+body{
+  background-color : #cd5c5c91;
+}
+
+#body-container {
+  font-family: sans-serif;
+  padding: 20px 80px;
+}
+
+h1{
+  font-size : 60px;
+  text-align : center;
+}
+
+#container {
+  padding: 45px;
+  background-color : #b78c3a4d;
+  border-radius: 55px;
+  box-shadow: 5px 6px 40px rgba(0, 0, 0, 0.5);
+}
+
+#container-input {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #6b5252;
+  border-radius : 20px;
+  margin-left : 70px;
+  background-color : #c9c5c5;
+  border: 2px solid black;
+}
+
+#dueDateInput{
+    margin-left : 80px;
+    margin-top : 10px;
+    border-radius : 10px;
+    background-color : #c9c5c5;
+    padding : 5px;
+    border: 2px solid black;
+}
+
+#priorityInput{
+    margin-left : 10px;
+    border-radius : 10px;
+    background-color : #c9c5c5;
+    padding : 5px;
+    border: 2px solid black;
+}
+
+#taskReminders{
+  margin-left : 10px;
+  border-radius : 10px;
+  background-color : #c9c5c5;
+  padding : 5px;
+  border: 2px solid black;
+}
+
+#sortText{
+      margin-left : 500px;
+      font-family : sans-serif;
+
+}
+
+#sortOption{
+    margin-left : 10px;
+    border-radius : 10px;
+    background-color : #c9c5c5;
+    padding : 5px;
+    border: 2px solid black;
+}
+
+#container-save {
+  padding: 6px 15px;
+  font-size: 15px;
+  background-color: #1fa825;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left : 10px;
+  border: 2px solid black;
+}
+
+
+#container-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border: 2px solid #673232;
+  background-color: #64808c42;
+  border-radius: 25px;
+  margin-bottom : 5px;
+}
+
+#container-list li span {
+  flex: 1;
+}
+
+#container-list li input {
+  flex: 1;
+  display: none;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #a471484d;
+  border-radius: 20px;
+  background-color: #6ecc9b2b;
+  margin: 5px;
+}
+
+#container-list li button {
+  padding: 6px 15px;
+  font-size: 15px;
+  background-color: #ff6666;
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 10px;
+  border: 2px solid black;
+}
+
+#container-list li button.edit-button {
+  background-color: #2196F3;
+  border: 2px solid black;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  /* this is marked as important as there were css elements conflicting */
+  display: inline-block !important; 
+}
+
+.checkmark {
+  font-size: 14px;
+  margin-right: 5px;
+  display: inline-block;
+}
